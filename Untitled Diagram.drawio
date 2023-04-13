@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T12:32:55.327Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.5" etag="Yx95-6jkIL35ZGjxyrfw" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T12:44:20.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="mzQ1FRNzIN1quwq2Bz6A" version="21.1.5" type="github">
   <diagram name="Page-1" id="eqXrHHRUIIte-C3bbEE5">
-    <mxGraphModel>
+    <mxGraphModel dx="1120" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="E4GRR5P0lyCHRhERAn2u-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="810" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="E4GRR5P0lyCHRhERAn2u-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E4GRR5P0lyCHRhERAn2u-1" target="E4GRR5P0lyCHRhERAn2u-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E4GRR5P0lyCHRhERAn2u-1" value="Front end web application&lt;br&gt;-Single stage Dockerfile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="E4GRR5P0lyCHRhERAn2u-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E4GRR5P0lyCHRhERAn2u-2" target="E4GRR5P0lyCHRhERAn2u-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E4GRR5P0lyCHRhERAn2u-2" value="Backend&amp;nbsp;&lt;br&gt;&lt;br&gt;-Multistage Dockerfile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="360" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="E4GRR5P0lyCHRhERAn2u-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E4GRR5P0lyCHRhERAn2u-3" target="E4GRR5P0lyCHRhERAn2u-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E4GRR5P0lyCHRhERAn2u-3" value="create application setup with Docker compose&amp;nbsp;&lt;br&gt;and Deploy on Dokcker container to access world&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="E4GRR5P0lyCHRhERAn2u-4" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;" vertex="1" parent="1">
+          <mxGeometry x="750" y="180" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E4GRR5P0lyCHRhERAn2u-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E4GRR5P0lyCHRhERAn2u-5" target="E4GRR5P0lyCHRhERAn2u-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E4GRR5P0lyCHRhERAn2u-5" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="540" y="166.8" width="129.76" height="106.4" as="geometry" />
+        </mxCell>
+        <mxCell id="E4GRR5P0lyCHRhERAn2u-13" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Spring Boot Application&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="490" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E4GRR5P0lyCHRhERAn2u-14" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;GCP VM instance&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="370" y="20" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E4GRR5P0lyCHRhERAn2u-15" value="application&amp;nbsp;&lt;br&gt;access" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
